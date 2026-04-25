@@ -1,6 +1,6 @@
 Stress Management and Coping Strategies Survey
 
-📌 Project Overview
+📌 Project Overview:
 This project is a professionally structured survey form designed to collect data on stress levels and coping strategies. It was developed using semantic HTML5 elements and built-in form validation techniques.
 
 🛠️ Features
