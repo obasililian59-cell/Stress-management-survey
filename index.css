@@ -1,5 +1,123 @@
 body {
-  background-color: lightblue;
+  background-color: #dadada;
   font-size: 1.1rem;
   color: #1a1a1a;
+}
+
+#title,#description{
+  text-align: center;
+}
+
+form {
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: gray;
+  border-radius: 15px;
+}
+
+label {
+  display: block;
+  color: lightblue;
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
+fieldset {
+  width: 300px;
+  background-color: #909090;
+  border-radius: 10px;
+  box-shadow: 0 0 30px lightblue;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+p:not(#description,.message){
+  color: white;
+  text-align: center;
+}
+
+input {
+  outline-color: lightblue;
+}
+
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="number"]:valid {
+  outline-color: green;
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="number"]:invalid {
+  outline-color: crimson;
+}
+
+input[type="radio"] {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  padding: 0.5em;
+  margin: 0.5em;
+  cursor: pointer;
+  border: 2px solid blue;
+  background-color: white;
+  border-radius: 10px;
+}
+
+input[type="radio"]:checked {
+  background-color: yellow;
+  border: 2px solid green;
+}
+
+input[type="radio"]:checked::after {
+  content: "✓";
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  padding: 0.5em;
+  margin: 0.5em;
+  cursor: pointer;
+  border: 2px solid blue;
+  background-color: white;
+  border-radius: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: yellow;
+  border: 2px solid green;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+}
+
+textarea {
+  width: 100%;
+  outline-color: lightblue;
+}
+
+select {
+  outline-color: lightblue;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 10px;
+  background-color: #008990;
+}
+
+/*footer*/
+footer {
+  font-style: italic;
+  font-size: 0.2em;
+  text-align-last: center;
 }
