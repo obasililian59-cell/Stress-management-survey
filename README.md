@@ -1,4 +1,5 @@
-#Stress-management-survey
+Stress Management & Coping Strategies Survey
+
 
 A responsive, semantic HTML5 survey form designed to collect data on stress triggers and coping mechanisms. Built with custom-styled form controls and native browser validation.
 
@@ -18,6 +19,5 @@ Usage :
 
 This form is currently a frontend interface. To function as a live survey, connect the `<form>` action to a backend service or form handler (e.g., Formspree, Netlify Forms).
 
-Live Demo :
+Live Demo:
 https://obasililian59-cell.github.io/Stress-management-survey/
-
