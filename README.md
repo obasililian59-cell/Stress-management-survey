@@ -1,4 +1,4 @@
-#Stress Management & Coping Strategies Survey
+#Stress-management-survey
 
 A responsive, semantic HTML5 survey form designed to collect data on stress triggers and coping mechanisms. Built with custom-styled form controls and native browser validation.
 
