@@ -1,12 +1,23 @@
-Stress Management and Coping Strategies Survey
+#Stress Management & Coping Strategies Survey
 
-📌 Project Overview:
-This project is a professionally structured survey form designed to collect data on stress levels and coping strategies. It was developed using semantic HTML5 elements and built-in form validation techniques.
+A responsive, semantic HTML5 survey form designed to collect data on stress triggers and coping mechanisms. Built with custom-styled form controls and native browser validation.
 
-🛠️ Features
-- Semantic HTML5 structure  
-- Grouped form sections using fieldset and legend  
-- Radio buttons and checkboxes with proper grouping  
-- Number input validation (min and max values)  
-- Accessible label associations  
-- Responsive and clean layout
+Key Features :
+
+- Semantic Structure: Organized using `<fieldset>` and `<legend>` for accessibility and logical grouping.
+- Custom UI Controls: Radio buttons and checkboxes rebuilt from scratch using `appearance: none` and CSS pseudo-elements for a consistent, branded look.
+- Native Validation: Visual feedback on input fields using `:valid` and `:invalid` pseudo-classes (green/crimson outlines) without JavaScript.
+- Responsive Design: Mobile-first layout with flexible spacing and scalable typography.
+
+Tech Stack :
+
+- HTML5
+- CSS3 (Custom properties, pseudo-classes, flexbox-ready structure)
+
+Usage :
+
+This form is currently a frontend interface. To function as a live survey, connect the `<form>` action to a backend service or form handler (e.g., Formspree, Netlify Forms).
+
+Live Demo :
+https://obasililian59-cell.github.io/Stress-management-survey/
+
